@@ -37,7 +37,7 @@
                     this.index++;
                     if (this.index === this.posts.length)
                         this.index = 0;
-                }, 1000 * 15)
+                }, 1000 * 60 * 5)
             });
         },
         computed: {
